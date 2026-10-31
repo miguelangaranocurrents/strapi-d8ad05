@@ -128,7 +128,6 @@ const relationsApi = contentManagerApi.injectEndpoints({
           targetField: queryArgs.targetField,
           id: queryArgs.params?.id,
           locale: queryArgs.params?.locale,
-          status: queryArgs.params?.status,
           _q: queryArgs.params?._q,
           idsToOmit: queryArgs.params?.idsToOmit,
           idsToInclude: queryArgs.params?.idsToInclude,
